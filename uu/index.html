@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<title>Meta Msak</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .img-container {
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .responsive-img {
+      width: 100%;
+      height: auto;
+      padding-bottom: 56.25%; /* 16:9 比例 */
+      position: relative;
+    }
+    .responsive-img img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+<script src="js/common.js"></script>
+</head>
+<body bgcolor="#ffa680" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+  <div class="img-container">
+    <div class="responsive-img"><img src="images/mk_01.gif"   class="responsive-img" alt="操作步骤示意图"  onclick="GetToFunction();"></div>
+	<div class="responsive-img"><img src="images/mk_02.gif"  class="responsive-img" alt="功能说明图示"  onclick="GetToFunction();"></div>
+	<div class="responsive-img"><img src="images/mk_03.gif"   class="responsive-img" alt="使用技巧展示"  onclick="GetToFunction();"></div>
+	<div class="responsive-img"><img src="images/mk_04.gif"   class="responsive-img" alt="配置流程说明"  onclick="GetToFunction();"></div>
+	<div class="responsive-img"><img src="images/mk_05.gif"   class="responsive-img" alt="最终效果预览"  onclick="GetToFunction();"></div>
+</div>
+</body>
+</html>
